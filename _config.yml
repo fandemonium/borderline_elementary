@@ -1,11 +1,10 @@
-root: /borderline_elementary
+root: /
 permalink: /:year-:month/:title/
 markdown: kramdown 
-theme: hushaw 
 highlighter: rouge
 paginate: 5
-baseurl: /borderline_elementary 
-layouts: /borderline_elementary/_layouts
+baseurl: / 
+layouts: ./_layouts
 #exclude: [2013-01-27-markdown-howto.md, 2014-03-09-welcome-to-jekyll.markdown, 2013-10-23-Design-Deploy-Service.md]
 ##port: 4000
 ##url: http://localhost:4000
@@ -15,7 +14,7 @@ title: Borderline Elementary
 #description: 'Base Jekyll theme hushaw by @hushaw'
 #url: http://fandemonium.github.io/borderline_elementary
 pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Categories: '/Categories'
-  Tags: '/tags'
+  About: './about.html'
+  Archive: './archive'
+  Categories: './Categories'
+  Tags: './tags'
